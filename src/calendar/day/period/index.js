@@ -64,9 +64,6 @@ class Day extends Component {
       defaultStyle.textStyle.color = this.theme.selectedDayTextColor;
     }
     const resultStyle = [marking].reduce((prev, next) => {
-      console.log("**** prev", prev);
-      console.log("**** next", next);
-
       if (next.quickAction) {
         if (next.first || next.last) {
           prev.containerStyle = this.style.firstQuickAction;
@@ -138,9 +135,6 @@ class Day extends Component {
       });
 
       const flags = this.markingStyle;
-
-      console.log("**** flags", flags);
-
       if (flags.textStyle) {
         textStyle.push(flags.textStyle);
       }
