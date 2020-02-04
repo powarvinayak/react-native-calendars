@@ -218,12 +218,12 @@ class Day extends Component {
           {fillers}
           {isStartDay && (
             <View style={this.style.helperTextContainer}>
-              <Text style={this.style.helperText}>Pick-Up</Text>
+              <Text style={this.style.helperText}>Start Date</Text>
             </View>
           )}
           {isEndDay && (
             <View style={this.style.helperTextContainer}>
-              <Text style={this.style.helperText}>Return</Text>
+              <Text style={this.style.helperText}>Return Date</Text>
             </View>
           )}
           <View style={containerStyle}>
