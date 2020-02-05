@@ -13,11 +13,14 @@ export default function styleConstructor(theme = {}) {
       color: "#D44767",
       fontSize: 11,
       fontFamily: appStyle.textDayFontFamily,
-      fontWeight: "bold"
+      fontWeight: "bold",
+      alignSelf:'center',
+      alignItems:'center'
     },
     helperTextContainer: {
       position: "absolute",
-      top: -14
+      top: -14,
+      width:60
     },
     wrapper: {
       alignItems: "center",
